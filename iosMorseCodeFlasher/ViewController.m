@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <AVFoundation/AVFoundation.h>
 @interface ViewController ()
 
 @end
@@ -17,6 +17,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+    if ([device hasTorch]) {
+        [device lockForConfiguration:nil];
+        [device setTorchMode:AVCaptureTorchModeOn];  // use AVCaptureTorchModeOff to turn off
+        [device unlockForConfiguration];
+    }
+    else{
+        // pop up warning
+    }
+    
+    NSTimer *beep = [NSTimer timerWithTimeInterval:2.0 target:self selector:@selector(shortBeep:) userInfo:nil repeats:NO];
+    
+}
+
+- (void)shortBeep:(id)sender{
+    
+}
+
+- (void)longBeep:(id)sender{
+    
 }
 
 - (void)didReceiveMemoryWarning {

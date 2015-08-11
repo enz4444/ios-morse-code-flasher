@@ -14,6 +14,7 @@
 		B39653A21B76978F0060A495 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39653A11B76978F0060A495 /* Images.xcassets */; };
 		B39653A51B76978F0060A495 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B39653A31B76978F0060A495 /* LaunchScreen.xib */; };
 		B39653B11B76978F0060A495 /* iosMorseCodeFlasherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B39653B01B76978F0060A495 /* iosMorseCodeFlasherTests.m */; };
+		B39653BB1B7698470060A495 /* ToDo in Resources */ = {isa = PBXBuildFile; fileRef = B39653BA1B7698470060A495 /* ToDo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B39653AA1B76978F0060A495 /* iosMorseCodeFlasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosMorseCodeFlasherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39653AF1B76978F0060A495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B39653B01B76978F0060A495 /* iosMorseCodeFlasherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosMorseCodeFlasherTests.m; sourceTree = "<group>"; };
+		B39653BA1B7698470060A495 /* ToDo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToDo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		B39653931B76978F0060A495 /* iosMorseCodeFlasher */ = {
 			isa = PBXGroup;
 			children = (
+				B39653BA1B7698470060A495 /* ToDo */,
 				B39653981B76978F0060A495 /* AppDelegate.h */,
 				B39653991B76978F0060A495 /* AppDelegate.m */,
 				B396539B1B76978F0060A495 /* ViewController.h */,
@@ -201,6 +204,7 @@
 			files = (
 				B39653A01B76978F0060A495 /* Main.storyboard in Resources */,
 				B39653A51B76978F0060A495 /* LaunchScreen.xib in Resources */,
+				B39653BB1B7698470060A495 /* ToDo in Resources */,
 				B39653A21B76978F0060A495 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

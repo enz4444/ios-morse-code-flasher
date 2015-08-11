@@ -1,0 +1,7 @@
+1. long beep, short beep flasher
+2. encoder for input field
+3. manual flasher
+4. looper
+
+beep:
+turn on; delay(.25,.75),turn off,delay( .5)
